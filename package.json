@@ -1,0 +1,20 @@
+{
+  "name": "omni-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ebarross/omni-api.git",
+  "author": "Emanoel Barros <ebarros297@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
